@@ -7,6 +7,6 @@ def reverse_each_word(string)
   new_string
 
   new_array.collect do |word|
-    word.reverse
+    word.reverse!
  end
 end  
