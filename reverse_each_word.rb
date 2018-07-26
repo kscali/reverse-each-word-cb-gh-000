@@ -5,6 +5,7 @@ def reverse_each_word(string)
     new_string << word.reverse
   end 
   new_string
+  end
 
   new_array.collect do |word|
     word.reverse.
